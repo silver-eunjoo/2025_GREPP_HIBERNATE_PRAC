@@ -11,7 +11,9 @@
 <!--            <class>io.silver.domain.eg2._2.Product</class>-->
 <!--            <class>io.silver.domain.eg2._3.Account</class>-->
 <!--            <class>io.silver.domain.eg2._3.OtherAccount</class>-->
-            <class>io.silver.domain.eg2._3.GymMembership</class>
+<!--            <class>io.silver.domain.eg2._3.GymMembership</class>-->
+            <class>io.silver.domain.eg3._1.Player</class>
+            <class>io.silver.domain.eg3._1.Team</class>
         <properties>
 
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"></property>
@@ -24,7 +26,7 @@
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
 
-            <property name="hibernate.hbm2ddl.auto" value="create"/>
+<!--            <property name="hibernate.hbm2ddl.auto" value="create"/>-->
 
 
         </properties>
